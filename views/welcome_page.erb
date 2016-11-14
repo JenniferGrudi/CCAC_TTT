@@ -1,26 +1,13 @@
-<center><h4>WELCOME!</h4>
-<br>
-<h1>Let's play Tic Tac Toe!!</h1>
-<br>
-<form action="/input" method="post">
-    <table style = "width:350px; height:350px"; rules="all">
-        <tr>
-            <th><%=board%></th>
-            <th><%=board%></th>
-            <th><%=board%></th>
-        </tr>
-        <tr>
-            <th><%=board%></th>
-            <th><%=board%></th>
-            <th><%=board%></th>
-        </tr>
-        <tr>
-            <th><%=board%></th>
-            <th><%=board%></th>
-            <th><%=board%></th>
-        </tr>
-</table>
-<br>
-<button type="submit" value="submit"><span style="cursor:pointer">Enter if you dare!</button></span></center>    
+<div class="fcmargin fcmargin1">
 
-</form>
+<h1 class="center"><%=welcome_message%></h1>
+<!--     
+<h3 class="center"><%=message%></h3> -->
+<br>
+    <form action="/player_one" method="post">  
+    <img  class="center-block" src="img/TTT.jpg" alt="TTT Logo">
+<br>     
+    <p class="center" ><button id="welcome" type="submit" value="submit"><span style="cursor:pointer"><%=enter%></button></span></p>   
+    </form>
+
+</div>

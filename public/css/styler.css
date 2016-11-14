@@ -1,0 +1,108 @@
+.how_to{
+    margin-bottom: 10rem;
+    margin-right: 20rem;
+    margin-left: 10rem;
+    font-size: 
+
+}
+.game {
+	text-align: center;
+    color: black; 
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+}
+
+.background_img{
+    background-image: reverse;  
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to left, black 0%,white 100%);
+    background-blend-mode:screen;
+}
+
+.fcmargin{
+	padding-top: 3rem;
+    margin-top:1rem;
+    padding-left:1rem;
+    margin-bottom: 10rem;
+}
+
+.enter_name{
+	text-align: center;
+	padding-top: 2rem;
+	font-size: 2rem;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
+/*custome table*/
+table{
+	width:20rem;
+	height:20rem; 
+	text-align: center;
+	margin: auto;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+footer p {
+    font-size: 2.0rem;   
+}
+footer a:visited {
+    color: white;
+}
+footer a:link{
+    color: white;
+}
+.center{
+	text-align: center;
+}
+/*custome button*/
+#welcome {
+	background-color: black;
+	color: white;
+}
+
+#nav {
+  list-style: none;
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+#nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+}
+#nav li {
+  margin: 0px;
+  display:
+}
+#nav li a {
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  background-color: none;
+  float: left;
+}
+#nav li a:hover {
+  color: white;
+  background-color: black;
+}

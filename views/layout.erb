@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 	<title><%=@title%></title>
-	</head>
-	<body>
+	<link rel="stylesheet" href = "css/styler.css">
+		<div id="nav">
 		<ul>
-			<li><a href= "/">HOME</a></li>
-			<li><a href= "https://en.wikipedia.org/wiki/Tic-tac-toe" target="_blank">WikiRules</a></li>
-			<li><a href= "/rubbish">Rubbish</a></li>
+		 <li><a href= "/">HOME</a></li>
+		 <li><a href= "/how_to">How to Play</a></li>
+		 <li><a href= "https://en.wikipedia.org/wiki/Tic-tac-toe" target="_blank">WikiRules</a></li>
+			
 		</ul>
+	</div>
+	</head>
+<div class="fcmargin">	
+	<body class="background_img">
 
 	<%=yield%>
 	</body>
+
 	<footer>
-	Mined Minds
+	<p> <a href= "http://www.minedminds.org" target="_blank">Mined Minds</a></p>
 	</footer>
+</div>	

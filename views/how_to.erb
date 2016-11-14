@@ -1,0 +1,38 @@
+<center><h1>How to Play the Game!</h1></center>
+<br>
+<div class="how_to">
+<p>A player can play a perfect game of tic-tac-toe (to win or, at least, draw) if they choose the first available move from the following list:
+<br>
+<br>
+<b>Win:</b> If the player has two in a row, they can place a third to get three in a row.
+<br>
+<br>
+<b>Block:</b> If the opponent has two in a row, the player must play the third themselves to block the opponent.
+<br>
+<br>
+<b>Fork:</b> Create an opportunity where the player has two threats to win (two non-blocked lines of 2).
+Blocking an opponent's fork:
+<br>
+<ul style="padding-left:20px">
+    
+	<li>Option 1: The player should create two in a row to force the opponent into defending, as long as it doesn't result in them creating a fork. For example, if "X" has a corner, "O" has the center, and "X" has the opposite corner as well, "O" must not play a corner in order to win. (Playing a corner in this scenario creates a fork for "X" to win.)</li>
+<br>
+	<li>Option 2: If there is a configuration where the opponent can fork, the player should block that fork.</li>
+</ul>
+<b>Strategies:</b>
+<br>
+<br>
+The first player, who shall be designated "X", has 3 possible positions to mark during the first turn. Superficially, it might seem that there are 9 possible positions, corresponding to the 9 squares in the grid. However, by rotating the board, we will find that in the first turn, every corner mark is strategically equivalent to every other corner mark. The same is true of every edge (side middle) mark. For strategy purposes, there are therefore only three possible first marks: corner, edge, or center. Player X can win or force a draw from any of these starting marks; however, playing the corner gives the opponent the smallest choice of squares which must be played to avoid losing. This makes the corner the best opening move for X, when the opponent is not a perfect player.
+<br>
+<br>
+<b>To guarantee a draw, O should adopt the following strategies:</b>
+<br>
+<br>
+If X plays corner opening move (best move for them), O should take center, and then an edge, forcing X to block in the next move. This will stop any forks from happening. When both X and O are perfect players and X chooses to start by marking a corner, O takes the center, and X takes the corner opposite the original. In that case, O is free to choose any edge as its second move. However, if X is not a perfect player and has played a corner and then an edge, O should not play the opposite edge as its second move, because then X is not forced to block in the next move and can fork.
+If X plays edge opening move, O should take center, and then follow the above list of priorities, mainly paying attention to block forks.  If X plays center opening move, O should take corner, and then follow the above list of priorities, mainly paying attention to block forks.
+<br>
+<br>
+
+<center><h1>Good Luck!!</h1></center>
+</p>
+</div>
